@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot.trialdesign.R
 \name{plot.trialdesign}
 \alias{plot.trialdesign}
-\title{Plot Method for Trialdesign Linear Models}
+\title{Plot Method for the "Trialdesign" Object}
 \usage{
 \method{plot}{trialdesign}(object, ...)
 }

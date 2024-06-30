@@ -9,6 +9,7 @@
 #' @param ntest The number of tests.
 #' @param type The type of the alpha-spending function, 1 for O'Briend-Fleming's design and 2 for Pocock's design.
 #'
+#' @import mvtnorm
 #' @return The value of the drift parameter.
 #' @export
 #'

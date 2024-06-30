@@ -15,14 +15,14 @@ trialdesign(powervec, sizevec, alpha, ntest, type)
 
 \item{ntest}{The number of tests.}
 
-\item{type}{The type of the alpha-spending function, k = 1 for O'Briend-Fleming's design and k = 2 for Pocock's design.}
+\item{type}{The type of the alpha-spending function, 1 for O'Briend-Fleming's design aand 2 for Pocock's design.}
 }
 \value{
 An S3 object of class "trialdesign" that contains the fitted linear model between the sample size and squared drift paramters, as well as all the function inputs.
 }
 \description{
-This function creates a fitted model object,
-given the vector input of power and a corresponding vector of sample size,
+This function creates an object that represents the planning of a clinical trial,
+which requires vector input of a series of powers and sample sizes,
 as well as the type I rate, the number of tests, and the alpha-spending function.
 }
 \examples{

@@ -2,7 +2,7 @@
 % Please edit documentation in R/predict.trialdesign.R
 \name{predict.trialdesign}
 \alias{predict.trialdesign}
-\title{Predict Method for Trialdesign Linear Models}
+\title{Predict Method for the "Trialdesign" Object}
 \usage{
 \method{predict}{trialdesign}(object, power)
 }
@@ -15,7 +15,7 @@
 The proposal sample size.
 }
 \description{
-Predicted values based on Trialdesign objects.
+Calculate the proposal sample size given a target power based on Trialdesign objects.
 }
 \examples{
 powervec=c(0.519,0.532,0.559,0.581,0.601,0.622,0.606,0.646,0.661,0.683,0.723,0.721,0.709,
@@ -28,7 +28,7 @@ type =  2
 
 newdesign = trialdesign(powervec, sizevec, alpha,ntest,type)
 
-# Predict the number of sample size needed when the target power is 0.8
+# Compute the sample size needed when the target power is 0.8
 predict(newdesign,0.8)
 
 }

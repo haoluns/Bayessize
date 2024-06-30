@@ -2,7 +2,7 @@
 % Please edit documentation in R/summary.trialdesign.R
 \name{summary.trialdesign}
 \alias{summary.trialdesign}
-\title{Summary Method for Trialdesign Linear Models}
+\title{Summary Method for the "Trialdesign" Object}
 \usage{
 \method{summary}{trialdesign}(object)
 }
@@ -10,7 +10,7 @@
 \item{object}{An object of class "trialdesign".}
 }
 \value{
-Prints the number of tests, the type I error rate and the type of alpha-spending function.
+Prints the number of tests, the type I error rate and the type of alpha-spending function of the trial design.
 }
 \description{
 Summary method for class "trialdesign".

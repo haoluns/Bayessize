@@ -13,7 +13,7 @@ eta(alpha, beta, ntest, type)
 
 \item{ntest}{The number of tests.}
 
-\item{type}{The type of the alpha-spending function, k = 1 for O'Briend-Fleming's design and k = 2 for Pocock's design.}
+\item{type}{The type of the alpha-spending function, 1 for O'Briend-Fleming's design and 2 for Pocock's design.}
 }
 \value{
 The value of the drift parameter.
