@@ -1,0 +1,20 @@
+Package: Bayessize
+Title: Drift Parameter Based Sample Size Determination in Bayesian
+        Sequential Randomized Clinical Trials
+Version: 1.0
+Authors@R: c(
+    person("Haolun", "Shi", email = "haolun_shi@sfu.ca", role = "aut"),
+    person("Yueyang", "Han", role = "aut"),	
+    person("Rob", "Cameron", email = "rca139@sfu.ca", role = "cre"))
+Description: An R package for computing the sample size in Bayesian sequential trials based on fitting linear model between the sample size and squared drift paramters.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: mvtnorm
+NeedsCompilation: no
+Packaged: 2024-06-03 22:11:11 UTC; robca
+Author: Haolun Shi [aut],
+  Yueyang Han [aut],
+  Rob Cameron [cre]
+Maintainer: Rob Cameron <rca139@sfu.ca>
